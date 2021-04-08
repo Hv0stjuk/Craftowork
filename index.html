@@ -65,7 +65,7 @@
           </p>
         </div>
         <div class="features__item">
-          <img src="#" alt="" />
+          <img class="fetures__img" src="#" alt="" />
           <h2 class="features__title title">Adopt without any obstacles</h2>
           <p class="features__text text">
             This sounded a very good reason, and Alice was quite pleased to know
@@ -77,9 +77,8 @@
       </div>
     </section>
     <section class="iphone">
-      <div class="iphone__wrapper">
-        <div>
-          <div>
+      <div class="iphone__inner">
+          <div class="iphone__wrapper">
             <h3 class="iphone__title title">Your day is protected</h3>
             <p class="iphone__text text">
               There have not been any since we have lived here, said my mother.
@@ -92,7 +91,6 @@
               <a class="iphone__link" href="#">Learn more</a>
             </div>
           </div>
-        </div>
       </div>
     </section>
     <section class="map">
@@ -108,19 +106,21 @@
         </div>
         <div class="map__partners partners">
           <h4 class="partners__title">Partners</h4>
-          <a class="partners__item" href="#">
-            <img class="partners__img" src="#" alt="Dropbox" />
-          </a>
-          <a class="partners__item" href="#">
-            <img class="partners__img" src="#" alt="Evernote" />
-          </a>
+          <div class="partners__list">
+            <a class="partners__item" href="#">
+              <img class="partners__img" src="#" alt="Dropbox" />
+            </a>
+            <a class="partners__item" href="#">
+              <img class="partners__img" src="#" alt="Evernote" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
     <section class="screens">
       <div class="screens__intro">
         <h2 class="screens__title title">Beautiful interface</h2>
-        <p class="screens__text text">landig screen</p>
+        <span class="screens__text text">landig screen</span>
       </div>
       <div class="screens__img-wrapper">
         <img class="screens__img" src="#" alt="get started" />
@@ -131,20 +131,21 @@
       </div>
     </section>
     <section class="buy">
-      <p class="buy__text text">newprovidence</p>
+      <span class="buy__text text">newprovidence</span>
       <h2 class="buy__title title">Get it to your smartphone</h2>
-      <form class="buy__form form">
+      <form class="buy__form">
         <input class="buy__input"
           type="email"
           placeholder="denis@getcraftwork.com"
           required="required"
         />
-        <button class="buy__btn btn">Send Invite</button>
+        <button class="buy__btn">Send Invite</button>
       </form>
       <div class="buy__download">
-        <p class="download__text text">or download from</p>
+        <span class="download__text text">or download from</span>
         <a class="download__link" href="#">
           <img class="download__img" src="#" alt="download on the App Store" />
+          Download on the App Store
         </a>
       </div>
     </section>
@@ -186,7 +187,7 @@
           <h3 class="plan__title">Starter</h3>
           <span class="plan__cost">Free</span>
           <h4 class="plan__subtitle">Build your schedule every day</h4>
-          <ul class="plan__benefits">
+          <ul class="plan__benefits benefits">
             <li class="benefits__item">Unlimeted events</li>
             <li class="benefits__item">Connect Dropbox & Evernote</li>
           </ul>
@@ -196,7 +197,7 @@
           <h3 class="plan__title">Pro</h3>
           <span class="plan__cost">$4.99</span>
           <h4 class="plan__subtitle">Make your life better</h4>
-          <ul class="plan__benefits">
+          <ul class="plan__benefits benefits">
             <li class="benefits__item">Unlimeted events</li>
             <li class="benefits__item">Connect Dropbox & Evernote</li>
             <li class="benefits__item">Personal Assistant</li>
@@ -210,7 +211,7 @@
         <h2 class="subscribe__title title">Subscribe our newsletters</h2>
         <form class="subscribe__form">
           <input class="subscribe__input" type="email" placeholder="Your e-mail" required="required" />
-          <button class="subscribe__btn btn" >Subscribe</button>
+          <button class="subscribe__btn" >Subscribe</button>
         </form>
         <p class="subscribe__text text">We promise to never spam you.</p>
       </div>
@@ -226,6 +227,7 @@
             </p>
             <a class="footer__download">
               <img class="download__img" src="#" alt="download on the App Store" />
+              Download on the App Store
             </a>
             <div class="footer__social social">
               <a class="social__item">
@@ -249,20 +251,20 @@
             </div>
           </div>
           <div class="footer__learn">
-            <h4 class="learn__title title">learn more</h4>
+            <h4 class="learn__title subtitle">learn more</h4>
             <a class="learn__link" href="#">How it works?</a>
             <a class="learn__link" href="#">Meeting tools</a>
             <a class="learn__link" href="#">Live striming</a>
             <a class="learn__link" href="#">Contat method</a>
           </div>
-          <div class="footer__about">
+          <div class="footer__about subtitle">
             <h4 class="about__title title">About Us</h4>
             <a class="about__link" href="#">About us</a>
             <a class="about__link" href="#">Features</a>
             <a class="about__link" href="#">Privacy police</a>
             <a class="about__link" href="#">Terms & Conditions</a>
           </div>
-          <div class="footer__support">
+          <div class="footer__support subtitle">
             <h4 class="support__title title">Support</h4>
             <a class="support__link" href="#">F.A.Q.</a>
             <a class="support__link" href="#">Contact us</a>
