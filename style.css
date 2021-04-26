@@ -1,0 +1,602 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding-top: 60px;
+    background-image: url(/assets/img/header_background_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__wrapper {
+    display: flex;
+
+}
+
+.header__nav {
+    
+}
+
+.burger {
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+}
+
+.nav__item+.nav__item {
+    margin-left: 40px;
+}
+
+.nav__link {
+}
+
+.header__logo.logo {
+}
+
+.logo__img {
+}
+
+.header__contacts.contacts {
+}
+
+.contacts__list {
+    display: flex;
+}
+
+.contacts__item {
+}
+
+.contacts__item+.contacts__item {
+    margin-left: 25px;
+}
+
+.contacts__link {
+}
+
+.contacts__app.app {
+}
+
+.header__content {
+    margin-top: 130px;
+}
+
+.content__title {
+    font-family: 'Varela Round';
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.content__text {
+    margin-top: 50px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.header__btn {
+    margin-top: 60px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.features {
+}
+
+.features__container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.features__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__item {
+    max-width: 490px;
+}
+
+.features__img {
+    margin-top: 120px;
+}
+
+.features__title {
+    margin-top: 50px;
+    font-family: Lato;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #26272d;
+}
+
+.features__text.text {
+    margin-top: 50px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.iphone {
+    padding: 220px 0 220px;
+}
+
+.iphone__container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.iphone__inner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iphone__wrapper {
+}
+
+.iphone__title {
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.iphone__text.text {
+    margin-top: 75px;
+    max-width: 470px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.iphone__links-wrapper {
+    margin-top: 70px;
+}
+
+.iphone__link {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.map {
+    padding: 220px 0 220px;
+}
+
+.map__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.map__wrapper {
+}
+
+.map__intro {
+}
+
+.map__title {
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.map__text {
+    margin-top: 70px;
+    max-width: 470px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.map__partners {
+    margin-top: 70px;
+}
+
+.partners__title {
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.partners__list {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners__item {
+}
+
+.partners__img {
+}
+
+.screens {
+    padding: 140px 0 125px;
+}
+
+.screens__intro {
+}
+
+.screens__title {
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.screens__text{
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #8c8f94;
+}
+
+.screens__img-wrapper {
+}
+
+.screens__img {
+}
+
+.buy {
+    padding: 70px 0 125px;
+    background-color: #f5f5f8;
+}
+
+.buy__container {
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.buy__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy__text.text {
+}
+
+.buy__title{
+    margin-top: 40px;
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #3a3d4b;
+}
+
+.buy__form {
+    margin-top: 50px;
+}
+
+.buy__input {
+    width: 500px;
+    height: 50px;
+}
+
+.buy__btn {
+    width: 164px;
+    height: 42px;
+    background-color: #6fc754;
+    border-radius: 21px;
+}
+
+.buy__download {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.download__text {
+    opacity: 0.3;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #3a3d4b;
+}
+
+.download__link {
+    margin-top: 20px;
+}
+
+.download__img {
+}
+
+.customers {
+    padding: 130px 0 125px;
+}
+
+.customers__slider {
+}
+
+.slider__prev {
+}
+
+.slider__next {
+}
+
+.slider__img-wrapper {
+}
+
+.slider__img {
+}
+
+.slider__title.title {
+}
+
+.slider__feedback {
+}
+
+.feedback__stars {
+}
+
+.feedback__source {
+}
+
+.plan {
+    padding: 160px 0 190px;
+    background-color: #f4f4f5;;
+}
+
+.plan__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.plan__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan__choose {
+}
+
+.choose__title {
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.choose__form {
+}
+
+.choose__input {
+}
+
+.choose__text {
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+    max-width: 350px;
+}
+
+.choose__span {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.choose__link {
+    text-decoration: underline;
+    color: #267df4;
+}
+
+.plan__list {
+    display: flex;
+}
+
+.plan__item {
+    padding: 60px 0 70px;
+    border: 1px solid black;
+    width: 340px;
+    height: 550px;
+    background-color: #ffffff;
+    box-shadow: 10px 28px 50px 0px rgba(92,95,101,0.2);
+    border-radius: 10px;
+
+}
+
+.plan__title {
+    font-family: Lato;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #26272d;
+}
+
+.plan__cost {
+    margin-top: 25px;
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.plan__subtitle {
+    margin-top: 55px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.plan__benefits {
+    margin-top: 45px;
+
+}
+
+.benefits__item {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #26292c;
+}
+
+.benefits__item+.benefits__item{
+    margin-top: 20px;
+}
+
+.plan__btn {
+    margin-top:85px;
+}
+
+.subscribe {
+}
+
+.subscribe__wrapper {
+}
+
+.subscribe__title.title {
+}
+
+.subscribe__form {
+}
+
+.subscribe__input {
+}
+
+.subscribe__btn {
+}
+
+.subscribe__text.text {
+}
+
+.footer {
+}
+
+.footer__wrapper {
+}
+
+.footer__top {
+}
+
+.footer__intro {
+}
+
+.footer__title.title {
+}
+
+.title__span {
+}
+
+.footer__text.text {
+}
+
+.footer__download {
+}
+
+.footer__social.social {
+}
+
+.social__item {
+}
+
+.social__link {
+}
+
+.footer__learn {
+}
+
+.learn__title.subtitle {
+}
+
+.learn__link {
+}
+
+.footer__about.subtitle {
+}
+
+.about__title.title {
+}
+
+.about__link {
+}
+
+.footer__support.subtitle {
+}
+
+.support__title.title {
+}
+
+.support__link {
+}
+
+.footer__bottom {
+}
+
+.footer__address {
+}
+
+.address__wrapper {
+}
+
+.address__link {
+}
+
+.footer__made {
+}
+
+.made__text {
+}
+
+.made__img {
+}
